@@ -1,0 +1,23 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+$desktop: 1180px;
+$tablet: 960px;
+$mp: 860px;
+
+// 기본 scss
+@import 'reset';
+// 공통 scss
+@import 'layout';
+@import 'header';
+@import 'footer';
+@import 'gotop';
+@import 'mobilemenu';
+
+// 섹션 scss
+@import 'visual';
+@import 'profile';
+@import 'life';
+@import 'portfolio';
+@import 'vision';
+@import 'life';
+@import 'skills';

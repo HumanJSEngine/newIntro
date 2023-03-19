@@ -1,0 +1,27 @@
+/** @format */
+
+.gotop {
+  position: fixed;
+  right: 80px;
+  bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  z-index: 9997;
+  cursor: pointer;
+  font-size: 3rem;
+  color: #315ca1;
+  transition: bottom 0.5s;
+  padding: 30px;
+  border-radius: 50%;
+  border: 5px solid #315ca1;
+  transform: rotate(180deg);
+}
+
+.active {
+  transform: rotate(360deg);
+  position: fixed;
+  margin-right: 70px;
+}

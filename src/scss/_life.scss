@@ -1,0 +1,71 @@
+/** @format */
+
+.life {
+    .inner {
+        padding: 30px 0px;
+        .edutitle {
+            font-size: 35px;
+            position: relative;
+            padding-left: 50px;
+            color: #315ca1;
+            &::after {
+                content: '';
+                position: absolute;
+                width: 230px;
+                height: 20px;
+                background: #b5cbf2;
+                left: 0;
+                top: 28px;
+                opacity: 0.3;
+                z-index: -10;
+            }
+        }
+        .contents {
+            display: flex;
+            gap: 0 15px;
+            .edu {
+                width: 370px;
+                // background: whitesmoke;
+                border-radius: 15px;
+                p {
+                    text-align: center;
+                    width: 100%;
+                    background: #b5cbf2;
+                    border-radius: 15px 15px 0px 0px;
+                    color: #315ca1;
+                    padding: 15px 0;
+                    font-size: 25px;
+                }
+                .eduinner {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px 0;
+                    gap: 5px 0px;
+                    span {
+                        text-align: center;
+                    }
+                    span:nth-child(2n + 1) {
+                        font-size: 25px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
+// 데스크탑
+@media screen and (max-width: $desktop) {
+}
+// 타블렛
+@media screen and (max-width: $tablet) {
+}
+// 모바일
+@media screen and (max-width: $mp) {
+    .skills-list {
+        li {
+            width: 50% !important;
+        }
+    }
+}
