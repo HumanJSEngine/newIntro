@@ -31,7 +31,7 @@ const Life = () => {
             <p>영남대학교 졸업</p>
             <div className="eduinner">
               <span>졸업년도</span>
-              <span>2020.08</span>
+              <span>2021.08</span>
               <span>전공</span>
               <span>무역학과</span>
             </div>
