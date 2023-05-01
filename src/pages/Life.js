@@ -46,12 +46,12 @@ const Life = () => {
             </div>
           </div>
           <div className="edu">
-            <p>정보처리기사 필기 합격</p>
+            <p>정보처리기사 합격</p>
             <div className="eduinner">
               <span>취득일자</span>
               <span>2022.08</span>
               <span>향후 일정</span>
-              <span>23-1회 기사 실기 준비 중</span>
+              <span>운영체제, 자료구조, 알고리즘</span>
             </div>
           </div>
         </div>
