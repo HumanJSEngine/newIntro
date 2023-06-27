@@ -6,7 +6,6 @@ const Portfolio = () => {
   return (
     <section className="portfolio scroll">
       <div className="inner">
-        {/* 개발담당자 : 팀프로젝트, 개인 작업(5개 목표(퍼블리싱 > 프론트)) */}
         <p className="pftitle" data-aos="fade-up">
           Portfolio
         </p>
@@ -220,7 +219,7 @@ const Portfolio = () => {
                       <span>쇼핑몰 프로젝트</span>
                       <span>(물건 구매 테마)</span>
                     </p>
-                    <span className="days">2023.3(제작 중)</span>
+                    <span className="days">2023.5</span>
                   </div>
                   <span className="github">
                   <img src="https://skillicons.dev/icons?i=github" alt="" />{' '}
@@ -264,98 +263,45 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          {/* <div className='project'>
-                        <div className='pinfo'>
-                            <img
-                                src='https://user-images.githubusercontent.com/103413040/222675624-1f5126bf-04ed-423b-944d-294327ffab73.gif'
-                                alt='문화가계부'
-                                width='500'
-                                height='500'
-                            />
+          <div className="project">
+            <div className="pinfo">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/tQ8PDesIdwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-                            <div className='pinforight'>
-                                <p className='title'>
-                                    가계부 프로젝트 <span>(문화비 테마)</span>
-                                </p>
-                                <span className='days'>
-                                    작업시기 - 2023. 2. 1주 ~ 2023. 2. 4주
-                                </span>
-                                <span>
-                                    <img
-                                        src='https://skillicons.dev/icons?i=github'
-                                        alt=''
-                                    />{' '}
-                                    <a
-                                        href='https://github.com/HumanJSEngine/project_culturebudget'
-                                        alt='budget'
-                                    >
-                                        깃허브방문
-                                    </a>
-                                </span>
-                                <p>
-                                    모바일 화면을 기반으로 가계부 테마의 CRUD가
-                                    가능한 앱을 만들었으며 회원가입, 로그인,
-                                    사진 등록, 달력, 통계 형태 변경 등의 기능이
-                                    구현되어 있습니다. 리액트 vite 툴을 기반으로
-                                    작업하였으며 타입스크립트를 사용하여
-                                    타입지정의 안정성을 높였습니다.
-                                </p>
-                                <div className='skillstack'>
-                                    <span>사용기술</span>
-                                    <ul className='skillicons'>
-                                        <li>
-                                            <img
-                                                src='https://skillicons.dev/icons?i=html'
-                                                alt=''
-                                            />
-                                        </li>
-                                        <li>
-                                            <img
-                                                src='https://skillicons.dev/icons?i=css'
-                                                alt=''
-                                            />
-                                        </li>
-                                        <li>
-                                            <img
-                                                src='https://skillicons.dev/icons?i=js'
-                                                alt=''
-                                            />
-                                        </li>
-                                        <li>
-                                            <img
-                                                src='https://skillicons.dev/icons?i=react'
-                                                alt=''
-                                            />
-                                        </li>
-                                        <li>
-                                            <img
-                                                src='https://skillicons.dev/icons?i=ts'
-                                                alt=''
-                                            />
-                                        </li>
-                                        <li>
-                                            <img
-                                                src='https://skillicons.dev/icons?i=redux'
-                                                alt=''
-                                            />
-                                        </li>
-                                        <li>
-                                            <img
-                                                src='https://skillicons.dev/icons?i=styledcomponents'
-                                                alt=''
-                                            />
-                                        </li>
-                                        <li>
-                                            <img
-                                                src='https://skillicons.dev/icons?i=vite'
-                                                alt=''
-                                            />
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
+              <div className="pinforight">
+                <div className="titlewrapper">
+                  <div className="titlewrap1">
+                    <p className="title">
+                      <span>콘솔기반 주소록</span>
+                      <span>(UI 의존도 낮춤 연습)</span>
+                    </p>
+                    <span className="days">2023.6</span>
+                  </div>
+                  <span className="github">
+                  <img src="https://skillicons.dev/icons?i=github" alt="" />{' '}
+                    <a
+                      href="https://github.com/HumanJSEngine/consolebase_addressbook.git"
+                      alt="주소록 프로그램"
+                    >
+                      깃허브방문  
+                    </a>
+                  </span>
+                </div>
+                <p className="des">
+                  node.js기반으로 콘솔로그가 ui를 대체하며 바닐라 자바스크립트에 익숙해지기 위해 간단한 주소록 기능을 구현하였습니다. 주소록 파일은 json으로 별도로 분리하였습니다
+                </p>
+                <div className="skillstack">
+                  <ul className="skillicons">
+                    <li>
+                      <img src="https://skillicons.dev/icons?i=js" alt="" />
+                    </li>
+                    <li>
+                      <img src="https://skillicons.dev/icons?i=ts" alt="" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

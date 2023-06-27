@@ -19,7 +19,7 @@ const Life = () => {
             <p>그린아트아카데미 수료</p>
             <div className="eduinner">
               <span>수강기간</span>
-              <span>2022.10 ~ 2023.04</span>
+              <span>2022.11 ~ 2023.05</span>
               <span>과정명</span>
               <span>
                 기업요구를 반영한 프로젝트 중심 프론트엔드 React(리액트) 개발자
@@ -46,12 +46,12 @@ const Life = () => {
             </div>
           </div>
           <div className="edu">
-            <p>정보처리기사 합격</p>
+            <p>정보처리기사</p>
             <div className="eduinner">
               <span>취득일자</span>
-              <span>2022.08</span>
+              <span>2023.04</span>
               <span>향후 일정</span>
-              <span>운영체제, 자료구조, 알고리즘</span>
+              <span>운영체제, 자료구조, 알고리즘, 데이터베이스, 네트워크 학습예정</span>
             </div>
           </div>
         </div>
