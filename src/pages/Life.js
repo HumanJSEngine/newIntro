@@ -49,7 +49,7 @@ const Life = () => {
             <p>정보처리기사</p>
             <div className="eduinner">
               <span>취득일자</span>
-              <span>2023.04</span>
+              <span>2023.07</span>
               <span>향후 일정</span>
               <span>운영체제, 자료구조, 알고리즘, 데이터베이스, 네트워크 학습예정</span>
             </div>
